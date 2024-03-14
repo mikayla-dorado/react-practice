@@ -25,12 +25,14 @@
 // export default App;
 // App.js
 import React from 'react';
-import CoffeeCostCalculator from './CoffeeCostCalculator';
+import CoffeeCostCalc from './CoffeeCostCalc';
+import { Counter } from './Counter';
 
 function App() {
   return (
     <div className="App">
-      <CoffeeCostCalculator />
+      {/* <CoffeeCostCalc /> */}
+      <Counter />
     </div>
   );
 }

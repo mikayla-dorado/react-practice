@@ -41,12 +41,10 @@ export const CoffeeCostCalc = () => {
     //called this in App.js
 }
 
+export default CoffeeCostCalc;
+
 //? need to set state for cost of coffee
 
 //? need to come up with the function to calculate the cost
 
 //? need to return the display
-
-
-//! i would not have thought of 'cups per day' need to redo this how i would have thought of it.
-//! can i use something else other than inputs and labels?
