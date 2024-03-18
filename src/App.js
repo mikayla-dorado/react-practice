@@ -24,15 +24,26 @@
 
 // export default App;
 // App.js
-import React from 'react';
+import React, { useState } from 'react';
 import CoffeeCostCalc from './CoffeeCostCalc';
 import { Counter } from './Counter';
+import { Form } from './Form';
+import Slider from './Slider';
 
 function App() {
+  const [sliderValue, setSliderValue] = useState(50);
+
+  const handleSliderChange = (value) => {
+    setSliderValue(value)
+  }
+
   return (
     <div className="App">
       {/* <CoffeeCostCalc /> */}
-      <Counter />
+      {/* <Counter /> */}
+      {/* <Form /> */}
+      <p>Current Value: {sliderValue}</p>
+      <Slider min={0} max={100} step={1} value={sliderValue} onChange={handleSliderChange} />
     </div>
   );
 }
