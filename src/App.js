@@ -40,10 +40,10 @@ function App() {
   return (
     <div className="App">
       {/* <CoffeeCostCalc /> */}
-      {/* <Counter /> */}
+      <Counter />
       {/* <Form /> */}
-      <p>Current Value: {sliderValue}</p>
-      <Slider min={0} max={100} step={1} value={sliderValue} onChange={handleSliderChange} />
+      {/* <p>Current Value: {sliderValue}</p>
+      <Slider min={0} max={100} step={1} value={sliderValue} onChange={handleSliderChange} /> */}
     </div>
   );
 }
